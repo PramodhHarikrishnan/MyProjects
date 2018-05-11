@@ -1,0 +1,760 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 40,
+        "name": "Validate Performace Table page in diff input",
+        "description": "",
+        "id": "performace-table-module;validate-performace-table-page-in-diff-input;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1507287027,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.Logout()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1288272575,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open analytics website",
+            "match": {
+              "location": "LoginSteps.i_open_analytics_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2710290841,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter 2DP:GroupName GroupName in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2DP:GroupName",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginDetailsSteps.I_Enter_GroupName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 408856476,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter 2DP:UserName UserName in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2DP:UserName",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginDetailsSteps.I_Enter_UserName(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348814765,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter DP:Password Password in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DP:Password",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginDetailsSteps.I_Enter_Password(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254992204,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Log In button",
+            "match": {
+              "location": "LoginDetailsSteps.I_click_on_Log_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7035413700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I see DP:DisplayText User display name in default page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DP:DisplayText",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginDetailsSteps.I_see_User_DisplayName_in_DefaultPage(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452881147,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select 3DP:Universe Universe",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3DP:Universe",
+                  "offset": 9
+                }
+              ],
+              "location": "PerformanceTableSteps.i_select_Universe(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1386223981,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select 3DP:FundGroup Fund Group",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3DP:FundGroup",
+                  "offset": 9
+                }
+              ],
+              "location": "PerformanceTableSteps.i_select_Fund_Group(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498650883,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select 3DP:FundName Fund Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3DP:FundName",
+                  "offset": 9
+                }
+              ],
+              "location": "PerformanceTableSteps.i_select_Fund_Name(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203344720,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I Add fund in Active List",
+            "match": {
+              "location": "PerformanceTableSteps.i_Add_fund_in_ActiveList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 707321673,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat cex.project.stepsdefinition.PerformanceTableSteps.i_Open_performaceTable_page(PerformanceTableSteps.java:48)\r\n\tat ✽.And I Open performace table page(test/resources/features/PerformanceTable.feature:33)\r\n",
+              "status": "failed"
+            },
+            "line": 33,
+            "name": "I Open performace table page",
+            "match": {
+              "location": "PerformanceTableSteps.i_Open_performaceTable_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I see perfromace table Title",
+            "match": {
+              "location": "PerformanceTableSteps.i_see_perfromaceTable_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I close the perfromance page",
+            "match": {
+              "location": "PerformanceTableSteps.i_close_perfromance_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I Click Logout button",
+            "match": {
+              "location": "LoginSteps.i_click_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Validate Performace Table page in diff input",
+        "description": "",
+        "id": "performace-table-module;validate-performace-table-page-in-diff-input;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1327658108,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.Logout()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143599541,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open analytics website",
+            "match": {
+              "location": "LoginSteps.i_open_analytics_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2433995206,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter 1DP:GroupName GroupName in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1DP:GroupName",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginDetailsSteps.I_Enter_GroupName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290213905,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter 1DP:UserName UserName in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1DP:UserName",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginDetailsSteps.I_Enter_UserName(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271038685,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter 2DP:Password Password in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2DP:Password",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginDetailsSteps.I_Enter_Password(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133717106,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Log In button",
+            "match": {
+              "location": "LoginDetailsSteps.I_click_on_Log_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2920728882,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I see 2DP:DisplayText User display name in default page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2DP:DisplayText",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginDetailsSteps.I_see_User_DisplayName_in_DefaultPage(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328359120,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select 2DP:Universe Universe",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2DP:Universe",
+                  "offset": 9
+                }
+              ],
+              "location": "PerformanceTableSteps.i_select_Universe(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1411619564,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select 7IM Investment Funds Fund Group",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7IM Investment Funds",
+                  "offset": 9
+                }
+              ],
+              "location": "PerformanceTableSteps.i_select_Fund_Group(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 400955903,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select AAP Adventurous A Acc - Mar 08 (BFB7) Fund Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAP Adventurous A Acc - Mar 08 (BFB7)",
+                  "offset": 9
+                }
+              ],
+              "location": "PerformanceTableSteps.i_select_Fund_Name(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199248726,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I Add fund in Active List",
+            "match": {
+              "location": "PerformanceTableSteps.i_Add_fund_in_ActiveList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531570719,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat cex.project.stepsdefinition.PerformanceTableSteps.i_Open_performaceTable_page(PerformanceTableSteps.java:48)\r\n\tat ✽.And I Open performace table page(test/resources/features/PerformanceTable.feature:33)\r\n",
+              "status": "failed"
+            },
+            "line": 33,
+            "name": "I Open performace table page",
+            "match": {
+              "location": "PerformanceTableSteps.i_Open_performaceTable_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I see perfromace table Title",
+            "match": {
+              "location": "PerformanceTableSteps.i_see_perfromaceTable_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I close the perfromance page",
+            "match": {
+              "location": "PerformanceTableSteps.i_close_perfromance_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I Click Logout button",
+            "match": {
+              "location": "LoginSteps.i_click_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Validate Performace Table page in diff input",
+        "description": "",
+        "id": "performace-table-module;validate-performace-table-page-in-diff-input;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1083919644,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.Logout()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40888250,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open analytics website",
+            "match": {
+              "location": "LoginSteps.i_open_analytics_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2384928623,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter feqauk GroupName in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "feqauk",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginDetailsSteps.I_Enter_GroupName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 315258342,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter test_1 UserName in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test_1",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginDetailsSteps.I_Enter_UserName(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553394683,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter 2DP:Password Password in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2DP:Password",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginDetailsSteps.I_Enter_Password(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148182787,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Log In button",
+            "match": {
+              "location": "LoginDetailsSteps.I_click_on_Log_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2675030315,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I see 3DP:DisplayText User display name in default page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3DP:DisplayText",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginDetailsSteps.I_see_User_DisplayName_in_DefaultPage(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566023140,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select DP:Universe Universe",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DP:Universe",
+                  "offset": 9
+                }
+              ],
+              "location": "PerformanceTableSteps.i_select_Universe(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1614757351,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select DP:FundGroup Fund Group",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DP:FundGroup",
+                  "offset": 9
+                }
+              ],
+              "location": "PerformanceTableSteps.i_select_Fund_Group(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250490026,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat cex.project.stepsdefinition.PerformanceTableSteps.i_select_Fund_Name(PerformanceTableSteps.java:34)\r\n\tat ✽.And I select DP:FundName Fund Name(test/resources/features/PerformanceTable.feature:31)\r\n",
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "I select DP:FundName Fund Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DP:FundName",
+                  "offset": 9
+                }
+              ],
+              "location": "PerformanceTableSteps.i_select_Fund_Name(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I Add fund in Active List",
+            "match": {
+              "location": "PerformanceTableSteps.i_Add_fund_in_ActiveList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I Open performace table page",
+            "match": {
+              "location": "PerformanceTableSteps.i_Open_performaceTable_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I see perfromace table Title",
+            "match": {
+              "location": "PerformanceTableSteps.i_see_perfromaceTable_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I close the perfromance page",
+            "match": {
+              "location": "PerformanceTableSteps.i_close_perfromance_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I Click Logout button",
+            "match": {
+              "location": "LoginSteps.i_click_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Performace Table Module",
+    "description": "Validate Performace Table page",
+    "id": "performace-table-module",
+    "keyword": "Feature",
+    "uri": "test/resources/features/PerformanceTable.feature"
+  }
+]
